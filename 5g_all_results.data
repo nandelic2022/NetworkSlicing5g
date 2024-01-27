@@ -1,0 +1,329 @@
+####################################################
+# Results from deepslice 5g 
+#####################################################
+# results regarding classes are showin in the following order 
+# Class 0 
+# Class 1 
+# Class 2 
+######################################################
+# Results regarding the oversampling methods are shown in the following order 
+# 1. KMeansSMOTE 
+# 2. SMOTE 
+# 3. Random Oversampling 
+#######################################################
+# Obtained results are presented in the following order for each balanced dataset variations 
+# 1. Optimal Hyperparmaeters 
+# 2. Symbolic Expressions 
+# 3. Length and Depth of the symbolic expressions 
+# 4. SCORES 
+########################################################
+# CLASS 0 
+########################################################
+# DATASET: KMeansSMOTE Class 0  Worker 1 prvi case 
+########################################################
+# Hyperparemeters 
+##############################
+[1635, 250, 481, (4, 12), 0.008725589253129766, 0.9754844241055372, 0.0113540513765121, 0.0036273671976085873, 0.000925, 0.9971796250500318, (-301700.6950944215, 942674.1857557468), 5.885972818688917e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+['div(np.sin(log(X3)), np.abs(log(np.sin(863851.864))))'], 
+['log2(div(np.subtract(log10(X7), log10(min(np.cos(np.tan(742936.783)), log(np.add(max(log(log10(X1)), np.multiply(log(X3), log10(CubeRoot(np.subtract(X3, X7))))), np.sin(-301303.584)))))), log(np.add(max(min(max(log2(X5), max(X0, 898484.077)), np.multiply(np.add(log2(sqrt(np.multiply(-73336.076, X5))), np.sin(X2)), np.abs(442325.914))), np.multiply(log(X3), log10(CubeRoot(np.subtract(X3, X7))))), np.sin(-301303.584)))))'], 
+['np.tan(np.add(log10(np.abs(np.add(sqrt(CubeRoot(div(np.sin(677029.081), log10(np.add(log(X3), log(log10(np.tan(div(np.sin(div(X3, log(log2(np.multiply(np.tan(X4), log10(np.cos(X5))))))), log2(log2(X3))))))))))), np.cos(np.subtract(log10(np.sin(np.sin(np.sin(max(sqrt(sqrt(CubeRoot(X0))), min(np.tan(X7), np.tan(X6))))))), log(log2(X3))))))), log2(log(X3))))'],
+['np.subtract(log(np.abs(log(CubeRoot(X2)))), np.multiply(max(np.abs(sqrt(295903.462)), np.abs(sqrt(X3))), np.sin(np.subtract(np.sin(X7), max(X3, X7)))))'],
+['np.add(log2(-138148.272), np.multiply(CubeRoot(np.add(np.subtract(log(np.tan(X2)), log10(log2(np.subtract(-175808.920, 451066.938)))), np.multiply(np.multiply(X5, 776775.121), np.cos(sqrt(893423.727))))), np.multiply(350969.888, X2)))']
+
+#############################
+# Depth and Length
+#############################
+['4', '12', '21', '5', '8']
+['8', '57', '54', '21', '25']
+
+
+#############################
+# SCORES 
+#############################
+
+
+########################################################
+# DATASET: SMOTE Class 0 
+########################################################
+# Hyperparemeters 
+##############################
+[1801, 286, 429, (6, 12), 0.03908215199474796, 0.9561471216892644, 0.001951737642618804, 0.0027626163214561827, 0.00032, 0.9923786729466892, (-178629.2078758513, 152684.7561994812), 1.5182572301249059e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+['np.subtract(log2(min(-171990.001, 35885.909)), np.add(X5, X3))'],
+['np.multiply(np.sin(log(X3)), X3)'],
+['np.subtract(sqrt(np.add(X7, X1)), np.multiply(log10(np.multiply(-148495.288, np.sin(np.multiply(X2, np.add(min(np.multiply(X3, np.sin(-152181.056)), div(X6, sqrt(X2))), np.abs(log10(np.multiply(np.cos(X2), max(107657.038, X0))))))))), np.abs(97151.403)))'],
+['np.add(np.tan(log10(X3)), np.add(np.tan(log10(X3)), np.multiply(np.subtract(np.sin(sqrt(max(sqrt(np.add(X1, X3)), CubeRoot(log10(X4))))), np.tan(np.tan(np.add(np.tan(np.subtract(X7, X5)), np.sin(np.cos(X5)))))), sqrt(log(div(np.subtract(62852.434, X4), log2(log2(CubeRoot(log2(21280.338))))))))))'],
+['np.subtract(np.multiply(max(log10(max(np.abs(np.multiply(32445.892, X2)), sqrt(np.multiply(X5, X3)))), div(sqrt(np.tan(CubeRoot(-159927.742))), np.subtract(np.multiply(div(X4, X2), np.multiply(X5, X6)), np.tan(np.sin(X7))))), CubeRoot(-159927.742)), np.multiply(log10(min(np.abs(max(log(X6), log10(X3))), log10(np.multiply(np.abs(93588.746), np.sin(X2))))), log10(np.subtract(log2(X3), np.subtract(X4, div(26809.691, X2))))))']
+
+#############################
+# Depth and Length
+#############################
+['3', '3', '11', '10', '7']
+['8', '5', '32', '41', '55']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+
+########################################################
+# DATASET: Random Oversampling Class 0 
+########################################################
+# Hyperparemeters 
+##############################
+[1661, 209, 141, (7, 17), 0.00302132698420894, 0.9557394899697841, 0.02117977292509348, 0.019661344355257036, 0.000129, 0.9952485747074935, (-596786.6084260127, 272352.52956008696), 9.233167918241184e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+['np.tan(np.tan(np.subtract(log10(np.add(sqrt(log10(X7)), CubeRoot(np.cos(log(np.sin(np.subtract(np.add(log2(min(X7, X6)), np.tan(X2)), CubeRoot(log10(sqrt(X3)))))))))), np.cos(X2))))'],
+['div(np.add(min(log2(max(X5, X0)), np.subtract(np.tan(np.abs(np.sin(log10(max(log10(np.sin(np.cos(np.subtract(X1, X7)))), np.add(np.sin(np.cos(log2(X3))), np.add(sqrt(log10(X2)), log10(np.abs(X4))))))))), np.tan(max(sqrt(log10(log(min(CubeRoot(log(np.multiply(X0, X3))), np.add(max(max(X7, X5), log2(X3)), CubeRoot(np.subtract(X3, -482415.909))))))), np.add(log10(div(np.abs(np.multiply(np.sin(np.abs(X2)), np.multiply(np.tan(X7), np.multiply(X6, X2)))), CubeRoot(min(min(CubeRoot(X2), div(X3, X0)), max(np.multiply(X5, X4), np.tan(X7)))))), CubeRoot(div(CubeRoot(np.multiply(np.tan(X5), sqrt(X0))), np.cos(np.abs(log10(np.tan(X2))))))))))), log(log2(CubeRoot(log10(np.cos(sqrt(np.multiply(sqrt(log(np.cos(sqrt(X3)))), np.add(max(np.abs(log(X4)), np.cos(log(X4))), np.cos(log10(min(X6, X2)))))))))))), np.subtract(np.abs(log10(np.cos(np.add(np.cos(log(sqrt(max(np.abs(max(sqrt(X6), sqrt(18727.621))), div(np.abs(np.sin(X5)), log(log(X0))))))), np.cos(np.abs(sqrt(np.sin(np.tan(sqrt(np.tan(X7))))))))))), min(log(np.sin(np.abs(np.tan(np.multiply(np.abs(np.subtract(CubeRoot(X3), sqrt(X3))), np.tan(log10(CubeRoot(X5)))))))), np.abs(sqrt(np.sin(log2(log10(np.tan(np.abs(div(sqrt(CubeRoot(X7)), np.tan(np.tan(X1)))))))))))))'],
+['np.add(log2(div(np.subtract(log(div(np.sin(sqrt(X3)), np.abs(CubeRoot(div(div(-235575.639, X1), X3))))), X7), log(X1))), np.multiply(log10(log(np.abs(log(X3)))), -346100.285))'],
+['np.multiply(min(np.add(sqrt(sqrt(CubeRoot(log(log(X0))))), np.abs(np.add(np.multiply(np.subtract(np.multiply(X3, X3), np.multiply(X4, X6)), np.add(max(X7, X4), min(X0, X3))), np.multiply(sqrt(CubeRoot(X4)), np.tan(div(X2, X5)))))), np.subtract(log10(div(sqrt(np.add(CubeRoot(X5), np.tan(-301671.168))), np.sin(X1))), div(max(X5, np.abs(np.add(np.tan(log2(X2)), div(np.subtract(X4, 228264.938), np.cos(X4))))), log2(np.tan(np.cos(np.tan(np.subtract(np.sin(X2), np.add(X3, -276242.548))))))))), np.cos(X3))'],
+['div(X3, np.cos(log10(max(np.abs(X3), np.subtract(X1, log2(X5))))))']
+
+#############################
+# Depth and Length
+#############################
+['13', '13', '10', '10', '6']
+['26', '179', '26', '71', '11']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+
+
+########################################################
+# CLASS 1 
+########################################################
+# DATASET: KMeansSMOTE Class 1
+########################################################
+# Hyperparemeters 
+##############################
+[1009, 253, 168, (7, 13), 0.01249539891716021, 0.9538880769246117, 0.014521039210274363, 0.018429281896057203, 7.8e-05, 0.9928232073655842, (-961606.5786264841, 916549.3588751928), 9.825276665827876e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+['np.subtract(log2(CubeRoot(max(np.multiply(div(np.abs(np.sin(676736.807)), max(X1, 161442.954)), np.abs(np.tan(log10(CubeRoot(np.sin(np.multiply(-322564.744, 814346.039))))))), np.add(CubeRoot(CubeRoot(-947525.785)), np.abs(np.multiply(np.multiply(np.add(CubeRoot(CubeRoot(-947525.785)), np.abs(np.multiply(np.multiply(X0, X5), 814485.677))), X5), 814485.677)))))), np.sin(div(np.multiply(np.sin(np.add(div(X4, X4), div(X3, X3))), CubeRoot(np.cos(sqrt(np.tan(log2(sqrt(-453066.474))))))), np.cos(np.tan(X5)))))'],
+['log2(np.add(sqrt(div(sqrt(np.tan(log2(X3))), np.add(np.add(X1, -335747.770), np.cos(X7)))), np.multiply(min(X5, np.abs(log(CubeRoot(sqrt(np.abs(-106637.555)))))), -576456.024)))'],
+['np.subtract(-436268.504, min(np.tan(X2), np.multiply(X5, -504244.441)))'],
+['np.multiply(np.add(X5, np.add(np.cos(np.tan(np.abs(log(sqrt(log2(np.subtract(div(np.sin(max(X0, X0)), np.subtract(np.add(X0, -148726.221), sqrt(-13700.191))), sqrt(np.add(X7, np.abs(505258.455)))))))))), X5)), 25248.373)'],
+['div(CubeRoot(np.subtract(np.subtract(-644249.317, X4), X3)), np.tan(div(log2(np.cos(X5)), X5)))']
+
+#############################
+# Depth and Length
+#############################
+['12', '9', '3', '13', '5']
+['60', '24', '8', '29', '13']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+########################################################
+# DATASET: SMOTE Class 1 
+########################################################
+# Hyperparemeters 
+##############################
+[1570, 228, 249, (3, 12), 0.010023044951953584, 0.9612687212424824, 0.01342503816390557, 0.014813255205506484, 1.3e-05, 0.9974698628027364, (-448676.5232851157, 295584.56209427636), 2.0675090739933615e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+[['np.tan(max(X6, np.add(np.cos(np.cos(sqrt(np.sin(np.cos(X5))))), 191392.911)))'], ['np.subtract(div(255394.965, X5), sqrt(262089.368))'], ['log2(sqrt(np.add(np.multiply(X5, np.multiply(-435657.072, -435657.072)), div(np.cos(-124223.112), -171471.960))))'], ['div(X3, min(np.subtract(CubeRoot(X5), div(np.abs(X4), np.add(X5, X4))), X5))'], ['np.multiply(np.cos(div(CubeRoot(X2), np.add(X0, X2))), np.subtract(np.subtract(np.multiply(167709.085, X5), np.add(X3, X1)), log(np.multiply(X1, X5))))']]
+
+#############################
+# Depth and Length
+#############################
+['8', '2', '5', '5', '4']
+['11', '6', '12', '13', '20']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+
+########################################################
+# DATASET: Random Oversampling Class 1
+########################################################
+# Hyperparemeters 
+##############################
+[1232, 226, 435, (7, 12), 0.0214385297526204, 0.9545707717436879, 0.019509395816702434, 0.004166665207382648, 0.000441, 0.9959677146832425, (-191244.26037337614, 675108.1566233557), 5.138321918843309e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+['log2(np.multiply(min(np.multiply(np.abs(np.sin(np.abs(np.subtract(log2(456355.229), np.tan(X5))))), np.abs(max(np.sin(np.tan(min(X2, X2))), div(X0, X5)))), log2(np.multiply(283448.815, X0))), np.add(sqrt(div(div(np.abs(X1), np.abs(np.abs(np.multiply(X1, X5)))), np.add(np.add(max(div(X3, X6), max(X3, np.abs(X3))), log(np.multiply(log10(CubeRoot(np.subtract(np.sin(sqrt(np.cos(np.sin(np.tan(X7))))), log2(div(log2(X3), div(X7, 634788.940)))))), log(sqrt(max(np.tan(X3), CubeRoot(log(X4)))))))), np.subtract(sqrt(min(X3, np.subtract(X2, np.add(np.abs(np.add(X6, X4)), 14771.374)))), log(np.add(CubeRoot(np.subtract(np.tan(X0), log10(X2))), 14771.374)))))), np.multiply(np.cos(min(min(log10(np.cos(CubeRoot(log10(623138.927)))), np.tan(np.add(np.tan(log(X2)), log10(np.multiply(532154.421, X2))))), np.abs(div(np.tan(527956.846), CubeRoot(X0))))), np.add(np.multiply(np.multiply(div(X5, X4), np.add(max(108248.301, X5), X3)), div(max(max(X5, X0), np.add(X3, 519412.732)), log2(np.tan(-190074.928)))), np.abs(X2))))))'],
+['np.add(np.multiply(X5, 644416.331), np.subtract(-142488.356, X0))'],
+['log2(np.multiply(div(113202.214, X5), min(X1, min(log2(log(np.cos(div(np.abs(X5), log2(633415.975))))), log2(sqrt(np.abs(sqrt(np.cos(log10(np.sin(np.cos(div(min(X0, X7), np.add(X4, -126712.885))))))))))))))'],
+['np.subtract(np.abs(min(div(np.multiply(np.add(log(X6), log(X6)), min(np.multiply(X6, X3), np.add(X2, X7))), div(np.abs(sqrt(X6)), np.subtract(max(X7, 650418.480), div(X2, X3)))), min(div(np.sin(log10(X2)), np.cos(max(np.abs(X5), np.abs(X3)))), log(log10(np.multiply(X7, X0)))))), div(CubeRoot(max(175364.947, X2)), div(max(sqrt(min(log(X5), log(X5))), min(min(np.add(X3, X0), div(X3, X0)), div(sqrt(X0), np.add(X2, X3)))), np.add(log10(np.sin(CubeRoot(X1))), min(CubeRoot(log10(-187186.113)), div(log10(log(log(log(max(X3, X1))))), np.abs(X5)))))))'],
+['div(np.subtract(CubeRoot(np.multiply(np.abs(np.add(np.add(X0, -81604.985), sqrt(X4))), CubeRoot(max(min(X7, X5), max(X7, X3))))), np.multiply(np.subtract(sqrt(np.multiply(sqrt(-133441.510), div(X6, X7))), log(np.subtract(np.sin(X2), np.add(X2, X4)))), np.sin(np.add(log(log(X1)), np.sin(np.tan(X3)))))), log10(max(np.add(max(X5, X2), sqrt(X5)), sqrt(np.tan(43423.541)))))']
+
+#############################
+# Depth and Length
+#############################
+['17', '2', '14', '11', '7']
+['142', '7', '31', '90', '54']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+
+########################################################
+# CLASS 2 
+########################################################
+# DATASET: KMeansSMOTE Class 2
+########################################################
+# Hyperparemeters 
+##############################
+[1145, 202, 397, (4, 14), 0.0017344477594159451, 0.9593844301631057, 0.03394168449947643, 0.0044099752535326, 0.000398, 0.9931882747756058, (-495217.8288791356, 691481.82409332), 3.9182951249336775e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+[['log2(log2(np.add(np.sin(max(min(np.tan(X2), div(np.cos(max(log10(sqrt(div(np.add(np.add(div(X3, log10(np.cos(div(np.sin(610011.496), X5)))), np.tan(X3)), np.multiply(log(div(np.multiply(671201.557, X4), min(max(sqrt(CubeRoot(CubeRoot(np.cos(log10(np.cos(log(np.subtract(241771.540, X3)))))))), max(X2, X6)), X2))), np.cos(np.subtract(div(div(X4, X7), X2), np.cos(X4))))), np.cos(np.tan(111446.305))))), np.abs(log(min(X5, np.tan(X2)))))), X3)), np.subtract(log10(log(-29767.835)), np.subtract(CubeRoot(X3), log10(sqrt(201011.685)))))), X5)))'], ['np.add(np.add(np.multiply(min(sqrt(np.abs(X5)), max(np.cos(np.abs(np.subtract(X4, np.cos(CubeRoot(CubeRoot(np.cos(X6))))))), np.tan(log(min(448020.840, X2))))), np.subtract(div(np.subtract(min(np.sin(X6), np.cos(X2)), sqrt(np.subtract(-424292.452, X3))), log(CubeRoot(max(X5, 480312.982)))), log(X4))), log(221204.345)), CubeRoot(np.multiply(min(np.multiply(np.add(np.add(log10(sqrt(np.sin(sqrt(X0)))), log10(log10(sqrt(X7)))), -109982.952), np.multiply(X7, np.tan(X3))), min(X2, np.cos(X7))), np.abs(np.add(CubeRoot(X7), np.tan(np.abs(np.tan(min(X7, X3)))))))))'], ['np.add(np.add(log(max(np.multiply(log2(np.multiply(np.multiply(X2, 496831.678), np.sin(X4))), np.abs(X3)), div(np.tan(np.abs(div(log2(np.sin(np.subtract(np.subtract(np.sin(X7), np.subtract(X5, X5)), CubeRoot(sqrt(X3))))), np.tan(np.subtract(sqrt(max(CubeRoot(X3), div(X7, X1))), sqrt(log10(np.cos(X4)))))))), X0))), np.tan(div(max(-75429.815, -309374.936), np.abs(np.sin(np.abs(sqrt(sqrt(X4)))))))), log(div(sqrt(sqrt(log2(sqrt(CubeRoot(log10(np.sin(log2(log2(np.cos(min(np.add(X5, X7), log2(-390152.790)))))))))))), np.subtract(CubeRoot(X1), min(sqrt(98713.229), 586353.095)))))'], ['np.add(np.add(np.add(np.abs(div(log2(np.sin(log2(np.sin(np.subtract(586878.032, X4))))), sqrt(log10(log2(np.tan(np.sin(np.add(X2, X5)))))))), log2(np.tan(np.tan(min(log10(div(np.sin(np.cos(log(X5))), np.sin(np.cos(np.subtract(468570.593, max(290621.621, X6)))))), min(np.abs(sqrt(min(X3, X2))), np.subtract(np.tan(X5), div(log10(log(np.tan(X7))), X7)))))))), np.tan(log10(CubeRoot(np.multiply(280935.936, X5))))), np.abs(CubeRoot(np.subtract(np.add(log2(X5), X5), np.add(log(X2), sqrt(min(np.cos(min(np.subtract(X2, X1), log(X0))), np.tan(X3))))))))'], ['np.subtract(np.abs(log2(max(X1, X3))), np.add(log10(np.abs(np.subtract(np.tan(np.tan(min(CubeRoot(X5), np.abs(X0)))), CubeRoot(div(X2, -15954.414))))), max(np.add(np.tan(np.tan(X5)), np.tan(sqrt(log(min(X3, 498621.174))))), log10(np.subtract(np.sin(-293937.755), np.abs(max(div(567232.751, X5), X5)))))))']]
+
+#############################
+# Depth and Length
+#############################
+['26', '12', '15', '13', '9']
+['78', '77', '80', '79', '42']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+########################################################
+# DATASET: SMOTE Class 2
+########################################################
+# Hyperparemeters 
+##############################
+[1504, 262, 345, (6, 14), 0.001065202546759481, 0.9604819233350027, 0.034615102867996385, 0.002878399450672431, 0.00054, 0.9974215492269238, (-200908.45759916233, 851092.0698813238), 2.742940995638918e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+[['np.subtract(min(np.tan(np.add(CubeRoot(log2(log10(max(np.tan(X2), np.sin(X5))))), log(np.abs(np.abs(max(np.sin(div(X0, X2)), np.multiply(log(-153629.858), np.abs(X3)))))))), log2(log10(max(np.tan(X2), np.sin(X5))))), np.add(np.tan(X4), CubeRoot(div(np.add(X3, max(X3, X2)), np.tan(X4)))))'], ['div(np.multiply(np.multiply(np.multiply(log2(np.abs(585043.081)), np.add(sqrt(X3), np.subtract(sqrt(X3), np.abs(np.tan(sqrt(X4)))))), CubeRoot(269376.980)), np.subtract(np.multiply(825590.371, 83614.473), X5)), div(np.tan(np.multiply(np.cos(X4), log(-111298.625))), sqrt(np.tan(np.multiply(X2, np.subtract(log(np.abs(X6)), X3))))))'], ['np.subtract(CubeRoot(np.tan(np.subtract(div(np.subtract(max(np.tan(np.add(max(-28902.582, CubeRoot(X6)), np.abs(log(X2)))), X3), 106434.781), np.multiply(X4, X7)), X7))), np.multiply(np.add(np.cos(np.cos(max(-74291.993, 679591.782))), np.abs(-43533.455)), CubeRoot(CubeRoot(np.add(log10(min(min(np.tan(np.abs(max(X5, X2))), sqrt(X0)), np.sin(sqrt(np.multiply(np.add(634013.190, X3), np.tan(X4)))))), max(np.abs(X2), X5))))))'], ['np.multiply(sqrt(max(760614.250, X0)), np.tan(log(log10(np.subtract(min(log2(log(X2)), max(X0, X4)), np.multiply(CubeRoot(np.sin(np.cos(log10(log(X3))))), np.cos(X5)))))))'], ['np.subtract(np.abs(log10(np.multiply(min(np.multiply(log(np.sin(min(X2, X3))), np.multiply(X0, X0)), np.tan(np.sin(log(X3)))), np.multiply(min(-73857.562, X6), div(705871.761, max(np.sin(X6), np.tan(382744.171))))))), max(np.multiply(X5, X3), log2(np.multiply(np.add(log2(np.multiply(np.cos(X5), np.multiply(503695.589, X7))), np.abs(sqrt(X5))), sqrt(np.subtract(np.subtract(np.tan(log2(log10(np.add(np.multiply(sqrt(np.sin(np.abs(X1))), X1), max(np.abs(X3), 2.704))))), X6), X0))))))']]
+
+#############################
+# Depth and Length
+#############################
+['10', '9', '11', '11', '15']
+['44', '40', '56', '25', '65']
+
+#############################
+# SCORES 
+#############################
+
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+
+########################################################
+# DATASET: Random Oversampling Class 2
+########################################################
+# Hyperparemeters 
+##############################
+[1786, 267, 250, (7, 12), 0.00948035414524559, 0.9519798416725854, 0.007124653551537123, 0.03081292591152565, 2.9e-05, 0.993550939369164, (-987687.3795789817, 676238.7151630191), 6.311217817469806e-07]
+
+#############################
+# Symbolic Expressions 
+#############################
+[['np.multiply(np.subtract(log10(log10(np.subtract(X3, X7))), X5), max(-268628.195, 577984.943))'], ['np.add(np.add(log(min(div(np.subtract(X0, CubeRoot(33507.759)), X2), np.cos(np.add(X3, CubeRoot(np.cos(X2)))))), div(np.multiply(log2(-835554.996), CubeRoot(-75987.378)), CubeRoot(min(max(CubeRoot(X7), 291760.099), X5)))), div(np.multiply(log2(-835554.996), CubeRoot(-75987.378)), CubeRoot(min(div(np.tan(CubeRoot(sqrt(-401864.161))), np.tan(X2)), CubeRoot(div(div(log2(np.multiply(log2(np.add(X1, np.add(div(np.cos(div(78039.153, np.add(X6, 207818.945))), sqrt(np.subtract(sqrt(X0), np.cos(X3)))), log10(X3)))), np.tan(sqrt(sqrt(div(88201.073, X2)))))), sqrt(log10(np.subtract(CubeRoot(-279409.580), 234092.393)))), X5))))))'], ['np.subtract(np.subtract(max(log(log2(X6)), min(sqrt(X3), np.subtract(X3, X1))), log2(max(np.add(np.multiply(log2(np.add(np.sin(X4), div(X0, X5))), CubeRoot(CubeRoot(min(X1, X5)))), np.tan(X2)), log(log2(max(div(X5, X6), min(X2, -558408.287))))))), max(np.sin(log2(log10(X4))), div(max(np.tan(np.sin(np.add(X3, X3))), log(np.tan(np.add(X2, X5)))), np.tan(np.cos(np.tan(CubeRoot(np.cos(np.multiply(X2, X7)))))))))'], ['np.subtract(log2(np.multiply(np.multiply(CubeRoot(X2), np.subtract(X7, -269903.759)), np.abs(np.tan(X2)))), np.add(np.multiply(X5, np.abs(np.abs(np.add(X2, X3)))), np.tan(np.tan(min(np.subtract(np.abs(np.add(np.subtract(X1, X1), np.multiply(X7, X7))), np.abs(np.cos(np.sin(X3)))), np.subtract(np.sin(sqrt(240415.555)), max(-680036.591, np.abs(log10(X2)))))))))'], ['log2(np.abs(log2(CubeRoot(min(CubeRoot(CubeRoot(np.add(np.tan(log(log2(CubeRoot(np.cos(X5))))), sqrt(log(np.subtract(np.subtract(log(-662953.592), np.tan(-728194.170)), np.tan(-728194.170))))))), log2(min(sqrt(np.add(log(sqrt(X3)), np.multiply(np.sin(363606.386), np.cos(log(np.tan(np.add(np.tan(X7), CubeRoot(X3)))))))), np.cos(np.add(np.multiply(X2, log10(np.subtract(sqrt(CubeRoot(div(np.tan(sqrt(np.abs(CubeRoot(X4)))), np.cos(np.add(np.subtract(np.cos(np.sin(np.subtract(div(log10(X7), X2), log(-930369.487)))), X4), log10(min(-399183.172, np.cos(np.subtract(sqrt(X0), np.abs(div(div(X7, np.cos(X4)), log2(X5)))))))))))), sqrt(np.multiply(sqrt(log10(np.abs(np.subtract(np.abs(log2(np.abs(log2(CubeRoot(208645.039))))), CubeRoot(sqrt(np.subtract(np.cos(log10(np.sin(sqrt(np.cos(X4))))), X4))))))), np.sin(np.tan(log(log2(log10(X4)))))))))), X5)))))))))']]
+
+#############################
+# Depth and Length
+#############################
+['5', '16', '9', '9', '26']
+['11', '81', '64', '45', '113']
+
+#############################
+# SCORES 
+#############################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
